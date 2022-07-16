@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/hugogardes/code ann 2/functional/image_compressor_repo/Image-Compressor'
+rm -f imageCompressor
+stack build
+cp .stack-work/install/x86_64-linux-tinfo6/*/8.10.7/bin/imageCompressor-exe .
+mv imageCompressor-exe imageCompressor
+make: Leaving directory '/home/hugogardes/code ann 2/functional/image_compressor_repo/Image-Compressor'
+ 
